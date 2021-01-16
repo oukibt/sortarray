@@ -3,7 +3,7 @@
 #include "SDK/amx/amx.h"
 #include "SDK/plugincommon.h"
 #include "pluginconfig.h"
-#include "SortArray\Utility.cpp"
+#include "Utility.cpp"
 #include <xstring>
 #include <cstdlib>
 #include <cstdio>
