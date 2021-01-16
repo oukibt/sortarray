@@ -3,7 +3,8 @@
 native sort(array[], count = sizeof array);
 native asort(array[], count = sizeof array);
 
-#if defined DONT_DEFINE_THIS
+#undef DONT_DEFINE_THIS_AAAA
+#if defined DONT_DEFINE_THIS_AAAA
 
 example
 {
