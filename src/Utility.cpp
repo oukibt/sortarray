@@ -39,7 +39,7 @@ namespace sortarray
 
 	int asort(int *array, const int size)
 	{
-		int i = 0, num = 0, b = 0;
+		int i = 0, num = MININT32, b = 0;
 		for(; i < size; i++)
 		{
 			for(b = i; b < size; b++)
@@ -48,7 +48,7 @@ namespace sortarray
 				num = array[b];
 				swap(array[i], array[b]);
 			}
-			num = 0;
+			num = MININT32;
 		}
 		return 1;
 	}
